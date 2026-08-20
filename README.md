@@ -1,22 +1,27 @@
-# STRATOSROBOTICS
+# STRATOS ROBOTICS
 
 Site web statique de STRATOS ROBOTICS — robots open source, drones, rovers, véhicules sous-marins et androïdes imprimés en 3D.
 
-Site en ligne : https://equationstratos.github.io/STRATOSROBOTICS/
+**Branche redesign** : design moderne sombre (thème futuriste cyan / dark) inspiré du mockup « Robotics Without Limits ».
 
-## Structure
-
-Le site est servi depuis la racine du dépôt par GitHub Pages :
-
-- `index.html` — page d'accueil et catalogue des projets
-- `gallery.html`, `liens.html`, `contact.html` — pages annexes
-- `*.html` — une page par projet (SPHERE, ROVER, TANK, DRONE, ARM…)
-- `images/`, `css/`, `fonts/` — ressources statiques
-- `videos/` — vidéos des projets (voir `videos/README.md` : fichiers à déposer)
-- `programs/`, `PCBfiles/`, `3Dfiles/` — code source, gerbers et fichiers 3D téléchargeables
-
-Note : GitHub Pages ne sert que des fichiers statiques — le formulaire `mail.php` de la page contact ne fonctionne pas sur cet hébergement.
+Site en ligne (main) : https://equationstratos.github.io/STRATOSROBOTICS/
 
 ## Devise
 
-*Learn, generate, transmit.*
+*Learn. Generate. Transmit.*
+
+## Structure (redesign-modern-2026)
+
+- `index.html` — nouvelle page d’accueil (hero, catégories AIR / GROUND / WATER / ANDROID, projets featured, catalogue filtrable, section open source)
+- Pages projets individuelles (`*.html`) — **toutes conservées** (liens depuis le catalogue et les pages catégories)
+- `WIND.html`, `GROUND.html`, `WATER.html`, `SPACE.html`, `ANDROID.html` — pages catégories
+- `gallery.html`, `contact.html`, `liens.html` — pages annexes
+- `images/`, `css/`, `fonts/`, `videos/`, `programs/`, `PCBfiles/`, `3Dfiles/`
+
+## Preview de la branche
+
+Après merge ou via GitHub Pages branch selector :  
+https://equationstratos.github.io/STRATOSROBOTICS/ (selon config Pages)
+
+ou raw :  
+https://github.com/equationstratos/STRATOSROBOTICS/blob/redesign-modern-2026/index.html

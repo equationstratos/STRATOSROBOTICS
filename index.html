@@ -131,7 +131,7 @@
       50% { transform: translateY(6px); }
     }
     .categories {
-      display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
       background: var(--border); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
     }
     .cat-card {
@@ -310,7 +310,7 @@
       .hero-actions { justify-content: center; }
       .hero-visual { padding: 2rem 4% 0; }
       .hero-visual img { max-height: 40vh; }
-      .categories { grid-template-columns: repeat(3, 1fr); }
+      .categories { grid-template-columns: repeat(2, 1fr); }
       .projects-grid { grid-template-columns: repeat(2, 1fr); }
       .os-grid { grid-template-columns: 1fr; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
@@ -340,7 +340,6 @@
     </a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
     <ul class="nav-links">
-      <li><a href="LAB.html">Lab 2026</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#all">AI & Autonomy</a></li>
       <li><a href="#opensource">Open Source</a></li>
@@ -391,128 +390,14 @@
       <p>Humanoids</p>
       <span class="arrow">→</span>
     </a>
-    <a href="MOTORS.html" class="cat-card">
-      <div class="cat-icon">⚙</div>
-      <h3>MOTORS</h3>
-      <p>Motors & Actuators</p>
-      <span class="arrow">→</span>
-    </a>
-    <a href="ELECTRONICS.html" class="cat-card">
-      <div class="cat-icon">⚡</div>
-      <h3>ELECTRONICS</h3>
-      <p>ESC, FC & PCB</p>
-      <span class="arrow">→</span>
-    </a>
   </div>
 
-  <section class="section" id="lab">
-    <div class="container">
-      <div class="section-header">
-        <div>
-          <div class="section-label">Lab 2026</div>
-          <h2 class="section-title">Derniers projets</h2>
-        </div>
-        <a href="LAB.html" class="section-link">Tout le lab 2026 →</a>
-      </div>
-      <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">AIR</span>
-            <img src="images/projects/stratosdrones-assembly.png" alt="STRATOSDRONES" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>STRATOSDRONES</h3>
-            <p>Drone open source classe Tello EDU — PCB, châssis, firmware, SDK et simulation Gazebo</p>
-            <div class="project-footer"><a href="STRATOSDRONES.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">AIR</span>
-            <img src="images/projects/tinyhoop-viz.png" alt="TINYHOOP MK1" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>TINYHOOP MK1</h3>
-            <p>2.5&quot; FPV programmable — ELRS, O4 Lite, liaison LoRa et vol en essaim</p>
-            <div class="project-footer"><a href="TINYHOOPMK1.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">AIR</span>
-            <img src="images/projects/opendrone.svg" alt="OPENDRONE 3&quot;" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>OPENDRONE 3&quot;</h3>
-            <p>Visualiseur temps réel à rendu PBR du drone OpenDrone 3 pouces</p>
-            <div class="project-footer"><a href="OPENDRONE.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">GROUND</span>
-            <img src="images/projects/ylo2-viewer.png" alt="YLO2" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>YLO2</h3>
-            <p>Banc cinématique 3D et simulateur Python du quadrupède YLO-2</p>
-            <div class="project-footer"><a href="YLO2.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">GROUND</span>
-            <img src="images/projects/blike-simulator.png" alt="BLIKE SIMULATOR" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>BLIKE SIMULATOR</h3>
-            <p>Bipède à roues POW : cinq barres, Kalman étendu et LQR dans le navigateur</p>
-            <div class="project-footer"><a href="BLIKE.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">WATER</span>
-            <img src="images/projects/jetboat.svg" alt="JETBOAT" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>JETBOAT</h3>
-            <p>RC Mini Jet Boat — 70 pièces, montage animé en 19 étapes et mode pilotage</p>
-            <div class="project-footer"><a href="JETBOAT.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">MOTORS</span>
-            <img src="images/projects/motors-12n14p.svg" alt="BRUSHLESS 12N14P" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>BRUSHLESS 12N14P</h3>
-            <p>Outrunner 12 encoches / 14 pôles entièrement paramétrique, en WebGL brut</p>
-            <div class="project-footer"><a href="MOTORS12N14P.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-img">
-            <span class="project-badge">ELECTRONICS</span>
-            <img src="images/projects/openesc.svg" alt="OPENESC" loading="lazy" />
-          </div>
-          <div class="project-body">
-            <h3>OPENESC</h3>
-            <p>Build an ESC — un canal moteur pièce par pièce, puis × 4, sous AM32</p>
-            <div class="project-footer"><a href="OPENESC.html" class="project-link">View Project →</a></div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="projects" style="background: #080c16;">
+  <section class="section" id="projects">
     <div class="container">
       <div class="section-header">
         <div>
           <div class="section-label">Featured Projects</div>
-          <h2 class="section-title">Signature Builds</h2>
+          <h2 class="section-title">Our Latest Creations</h2>
         </div>
         <a href="#all" class="section-link">View All Projects →</a>
       </div>
@@ -580,26 +465,10 @@
         <button class="filter-btn" data-filter="water">Water</button>
         <button class="filter-btn" data-filter="android">Android</button>
         <button class="filter-btn" data-filter="space">Space</button>
-        <button class="filter-btn" data-filter="motors">Motors</button>
-        <button class="filter-btn" data-filter="electronics">Electronics</button>
-        <button class="filter-btn" data-filter="other">Accessories</button>
+        <button class="filter-btn" data-filter="other">Motors & Accessories</button>
       </div>
       <div class="all-grid" id="project-list">
-        <!-- Lab 2026 -->
-        <a href="STRATOSDRONES.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/projects/stratosdrones-assembly.png" alt="" loading="lazy" /></div><div class="info"><h4>STRATOSDRONES</h4><p>Drone classe Tello EDU</p><span class="tag">Air</span></div></a>
-        <a href="TINYHOOPMK1.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/projects/tinyhoop-viz.png" alt="" loading="lazy" /></div><div class="info"><h4>TinyHoop MK1</h4><p>2.5&quot; FPV programmable</p><span class="tag">Air</span></div></a>
-        <a href="OA35.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/projects/tinyhoop-oa35.svg" alt="" loading="lazy" /></div><div class="info"><h4>OA35 — Build FPV</h4><p>Build modelé depuis photos</p><span class="tag">Air</span></div></a>
-        <a href="OPENDRONE.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/projects/opendrone.svg" alt="" loading="lazy" /></div><div class="info"><h4>OpenDrone 3&quot;</h4><p>Visualiseur PBR</p><span class="tag">Air</span></div></a>
-        <a href="DEXI3.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/projects/dexi3.svg" alt="" loading="lazy" /></div><div class="info"><h4>DEXI 3</h4><p>DroneBlocks, PX4 + ROS 2</p><span class="tag">Air</span></div></a>
-        <a href="YLO2.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/projects/ylo2-viewer.png" alt="" loading="lazy" /></div><div class="info"><h4>YLO2</h4><p>Banc cinématique quadrupède</p><span class="tag">Ground</span></div></a>
-        <a href="NAVBOTEN01.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/projects/navbot-en01.png" alt="" loading="lazy" /></div><div class="info"><h4>Navbot-EN01</h4><p>Robot à jambes-roues ESP32</p><span class="tag">Ground</span></div></a>
-        <a href="BLIKE.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/projects/blike-simulator.png" alt="" loading="lazy" /></div><div class="info"><h4>BLIKE Simulator</h4><p>Bipède à roues POW</p><span class="tag">Ground</span></div></a>
-        <a href="JETBOAT.html" class="all-card" data-cat="water"><div class="thumb"><img src="images/projects/jetboat.svg" alt="" loading="lazy" /></div><div class="info"><h4>JetBoat</h4><p>RC Mini Jet Boat, 70 pièces</p><span class="tag">Water</span></div></a>
-        <a href="MOTORS12N14P.html" class="all-card" data-cat="motors"><div class="thumb"><img src="images/projects/motors-12n14p.svg" alt="" loading="lazy" /></div><div class="info"><h4>Brushless 12N14P</h4><p>Outrunner paramétrique</p><span class="tag">Motors</span></div></a>
-        <a href="MOTEUS1.html" class="all-card" data-cat="motors"><div class="thumb"><img src="images/projects/moteus1-bench.png" alt="" loading="lazy" /></div><div class="info"><h4>Moteus1 — qdd100</h4><p>Banc d'essai servo QDD</p><span class="tag">Motors</span></div></a>
-        <a href="OPENESC.html" class="all-card" data-cat="electronics"><div class="thumb"><img src="images/projects/openesc.svg" alt="" loading="lazy" /></div><div class="info"><h4>OpenESC</h4><p>Build an ESC, guidé en 3D</p><span class="tag">Electronics</span></div></a>
-        <a href="OPENFC.html" class="all-card" data-cat="electronics"><div class="thumb"><img src="images/projects/openfc.svg" alt="" loading="lazy" /></div><div class="info"><h4>OpenFC</h4><p>Contrôleur de vol, guidé en 3D</p><span class="tag">Electronics</span></div></a>
-        <!-- Catalogue -->
+        <!-- All projects linked - see full list in repo. Key categories covered. -->
         <a href="CRAZYFLIE.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/crazyflie_2.1.jpg" alt="" loading="lazy" /></div><div class="info"><h4>Crazyflie</h4><p>Bitcraze nano drone</p><span class="tag">Air</span></div></a>
         <a href="LEOPARDMK1.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/LEOPARDMK1.jpg" alt="" loading="lazy" /></div><div class="info"><h4>Leopard MK1</h4><p>MIT Mini Cheetah</p><span class="tag">Ground</span></div></a>
         <a href="YLO2.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/Ylo2_Full_Robot_Orange_Light%20v1.png" alt="" loading="lazy" /></div><div class="info"><h4>YLO2</h4><p>Quadruped platform</p><span class="tag">Ground</span></div></a>
@@ -610,10 +479,10 @@
         <a href="ESP32DRONE.html" class="all-card" data-cat="air"><div class="thumb"><img src="images/Drone-ESP32.jpg" alt="" loading="lazy" /></div><div class="info"><h4>ESP32 Drone</h4><p>Open-source ESP32</p><span class="tag">Air</span></div></a>
         <a href="CURIOSITYMK4.html" class="all-card" data-cat="space"><div class="thumb"><img src="images/Screenshot.png" alt="" loading="lazy" /></div><div class="info"><h4>Curiosity MK4</h4><p>Space rover</p><span class="tag">Space</span></div></a>
         <a href="ARMMK1.6.html" class="all-card" data-cat="android"><div class="thumb"><img src="images/arm1.6.png" alt="" loading="lazy" /></div><div class="info"><h4>Arm MK1.6</h4><p>Robotic arm</p><span class="tag">Android</span></div></a>
-        <a href="MOTORS.html" class="all-card" data-cat="motors"><div class="thumb"><img src="images/BLDC_Custom.jpg" alt="" loading="lazy" /></div><div class="info"><h4>Motors</h4><p>Custom BLDC</p><span class="tag">Motors</span></div></a>
+        <a href="MOTORS.html" class="all-card" data-cat="other"><div class="thumb"><img src="images/BLDC_Custom.jpg" alt="" loading="lazy" /></div><div class="info"><h4>Motors</h4><p>Custom BLDC</p><span class="tag">Other</span></div></a>
         <a href="TANKMK4.html" class="all-card" data-cat="ground"><div class="thumb"><img src="images/SNOWCAT.png" alt="" loading="lazy" /></div><div class="info"><h4>Snow Cat</h4><p>Heavy tank</p><span class="tag">Ground</span></div></a>
         <p style="grid-column: 1 / -1; text-align: center; color: var(--text-muted); padding: 2rem 0;">
-          + 80 projets supplémentaires — tous les liens vers les pages individuelles (SPHEREMK*, NANOQUADCOPTER*, ROVER*, TANK*, HEXAPOD*, JETBOAT*, etc.) sont conservés et accessibles depuis les pages catégories <a href="WIND.html" style="color: var(--cyan)">AIR</a> / <a href="GROUND.html" style="color: var(--cyan)">GROUND</a> / <a href="WATER.html" style="color: var(--cyan)">WATER</a> / <a href="ANDROID.html" style="color: var(--cyan)">ANDROID</a> / <a href="SPACE.html" style="color: var(--cyan)">SPACE</a> / <a href="MOTORS.html" style="color: var(--cyan)">MOTORS</a> / <a href="ELECTRONICS.html" style="color: var(--cyan)">ELECTRONICS</a>.
+          + 80 projets supplémentaires — tous les liens vers les pages individuelles (SPHEREMK*, NANOQUADCOPTER*, ROVER*, TANK*, HEXAPOD*, JETBOAT*, etc.) sont conservés et accessibles depuis les pages catégories AIR / GROUND / WATER / ANDROID / SPACE.
         </p>
       </div>
     </div>
@@ -656,16 +525,14 @@
             <li><a href="WATER.html">Water</a></li>
             <li><a href="SPACE.html">Space</a></li>
             <li><a href="ANDROID.html">Android</a></li>
-            <li><a href="MOTORS.html">Motors</a></li>
-            <li><a href="ELECTRONICS.html">Electronics</a></li>
           </ul>
         </div>
         <div>
           <h5>Resources</h5>
           <ul>
-            <li><a href="LAB.html">Lab 2026</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="liens.html">Links</a></li>
+            <li><a href="MOTORS.html">Motors</a></li>
             <li><a href="ACCESSORIESANDOTHERS.html">Accessories</a></li>
           </ul>
         </div>

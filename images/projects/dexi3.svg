@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="DEXI 3">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#3b5068" stroke-width="0.5" opacity="0.35"/>
+    </pattern>
+    <radialGradient id="halo" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#0c1220"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <rect width="800" height="600" fill="url(#halo)"/>
+  <rect x="282" y="132" width="236" height="236" rx="18" fill="#101d2e" stroke="#22d3ee" stroke-width="2"/>
+  <line x1="360" y1="210" x2="250" y2="100" stroke="#22d3ee" stroke-width="13" stroke-linecap="round" opacity="0.32"/>
+  <circle cx="250" cy="100" r="64" fill="#22d3ee" opacity="0.07"/>
+  <circle cx="250" cy="100" r="64" fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-dasharray="4 7" opacity="0.75"/>
+  <path d="M250 100Q283.9 102.3 301.2 127.2" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M250 100Q231.0 128.2 200.8 130.7" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M250 100Q235.1 69.5 248.0 42.0" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="250" cy="100" r="15" fill="#0c1220" stroke="#f59e0b" stroke-width="2.5"/>
+  <line x1="440" y1="210" x2="550" y2="100" stroke="#22d3ee" stroke-width="13" stroke-linecap="round" opacity="0.32"/>
+  <circle cx="550" cy="100" r="64" fill="#22d3ee" opacity="0.07"/>
+  <circle cx="550" cy="100" r="64" fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-dasharray="4 7" opacity="0.75"/>
+  <path d="M550 100Q570.9 73.2 601.2 72.8" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M550 100Q562.8 131.5 548.0 158.0" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M550 100Q516.3 95.3 500.8 69.3" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="550" cy="100" r="15" fill="#0c1220" stroke="#f59e0b" stroke-width="2.5"/>
+  <line x1="360" y1="290" x2="250" y2="400" stroke="#22d3ee" stroke-width="13" stroke-linecap="round" opacity="0.32"/>
+  <circle cx="250" cy="400" r="64" fill="#22d3ee" opacity="0.07"/>
+  <circle cx="250" cy="400" r="64" fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-dasharray="4 7" opacity="0.75"/>
+  <path d="M250 400Q270.9 373.2 301.2 372.8" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M250 400Q262.8 431.5 248.0 458.0" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M250 400Q216.3 395.3 200.8 369.3" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="250" cy="400" r="15" fill="#0c1220" stroke="#f59e0b" stroke-width="2.5"/>
+  <line x1="440" y1="290" x2="550" y2="400" stroke="#22d3ee" stroke-width="13" stroke-linecap="round" opacity="0.32"/>
+  <circle cx="550" cy="400" r="64" fill="#22d3ee" opacity="0.07"/>
+  <circle cx="550" cy="400" r="64" fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-dasharray="4 7" opacity="0.75"/>
+  <path d="M550 400Q583.9 402.3 601.2 427.2" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M550 400Q531.0 428.2 500.8 430.7" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M550 400Q535.1 369.5 548.0 342.0" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="550" cy="400" r="15" fill="#0c1220" stroke="#f59e0b" stroke-width="2.5"/>
+  <rect x="344" y="204" width="112" height="92" rx="10" fill="#132538" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="370" y="226" width="60" height="48" rx="4" fill="none" stroke="#22d3ee" stroke-width="1.6" opacity="0.8"/>
+  <circle cx="400" cy="250" r="9" fill="#f59e0b" opacity="0.9"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="48" y="528" fill="#e2e8f0" font-size="30" font-weight="700" letter-spacing="1.5">DEXI 3</text>
+    <text x="48" y="556" fill="#22d3ee" font-size="15" font-weight="500" letter-spacing="2.4">DRONEBLOCKS · PX4 + ROS 2</text>
+    <text x="752" y="556" fill="#3b5068" font-size="12" font-weight="600" letter-spacing="2.6" text-anchor="end">STRATOS ROBOTICS</text>
+  </g>
+  <rect x="48" y="496" width="64" height="3" fill="#22d3ee"/>
+</svg>

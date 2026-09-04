@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>MOTEUS1 — QDD100 — STRATOS ROBOTICS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="description" content="MOTEUS1 : banc d'essai 3D du servomoteur mjbots qdd100, geometrie reelle dans le navigateur, physique simulee en Python a 1 kHz et API identique a moteus." />
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="css/single.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	 rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<!-- home -->
+	<div id="home">
+		<!-- banner -->
+		<div class="banner_w3lspvt-2">
+			<!-- nav -->
+			<div class="nav_w3ls pt-4 pb-3 text-center">
+				<nav>
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop" />
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="LAB.html">LAB 2026</a></li>
+						<li>
+							<!-- First Tier Drop Down -->
+							<label for="drop-1" class="toggle toogle-1">Unmanned Vehicles <span class="fa fa-angle-down" aria-hidden="true"></span>
+							</label>
+							<a href="index.html#what">Unmanned Vehicles <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+							<input type="checkbox" id="drop-1" />
+							<ul class="text-left">
+								<li><a href="WIND.html" class="drop-text">AIR</a></li>
+								<li><a href="GROUND.html" class="drop-text">GROUND</a></li>
+								<li><a href="WATER.html" class="drop-text">WATER</a></li>
+								<li><a href="SPACE.html" class="drop-text">SPACE</a></li>
+								<li><a href="ANDROID.html" class="drop-text">ANDROID</a></li>
+								<li><a href="MOTORS.html" class="drop-text">MOTORS</a></li>
+								<li><a href="ELECTRONICS.html" class="drop-text">ELECTRONICS</a></li>
+								<li><a href="ACCESSORIESANDOTHERS.html" class="drop-text">ACCESSOIRES</a></li>
+							</ul>
+						</li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- //nav -->
+			<div class="banner-text-2 text-right">
+				<div class="banner-bot-2">
+					<h1><a href="index.html" class="logo text-wh editContent">STRATOS ROBOTICS</a></h1>
+				</div>
+			</div>
+		</div>
+		<!-- //banner -->
+	</div>
+	<!-- //home -->
+
+	<!-- single -->
+	<div class="blog-w3l py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="text-center mb-5">
+				<h3 class="tittle text-bl let mb-2 pt-sm-3">MOTEUS1 — QDD100</h3>
+				<p class="text-bl">Banc d'essai 3D du servomoteur quasi-direct-drive mjbots qdd100</p>
+			</div>
+			<div class="blog_section px-lg-5">
+				<div class="card border-0">
+					<img src="images/projects/moteus1-bench.png" alt="MOTEUS1 — QDD100" class="img-fluid mb-3">
+					<img src="images/projects/moteus1-cutaway.png" alt="MOTEUS1 — QDD100" class="img-fluid mb-3">
+					<div class="card-body p-0 py-4">
+						<div class="row border-bottom pb-3">
+							<div class="col-sm-6 col-4 perso-wthree">
+								<h6 class="blog-first text-bl">
+									<span class="fa fa-user mr-2"></span>STRATOS ROBOTICS
+								</h6>
+							</div>
+							<div class="col-sm-6 col-8 perso-wthree text-sm-right">
+								<h6 class="blog-first text-bl">
+									<span class="fa fa-folder-open mr-2"></span><a href="MOTORS.html" class="text-bl">MOTORS</a>
+								</h6>
+							</div>
+						</div>
+						<span class="text-bl blog-grid-title mt-4 mb-3 d-block">Description</span>
+						<p class="card-text">Simulateur interactif du servomoteur <b>mjbots qdd100</b> — quasi-direct-drive : moteur mj5208, r&eacute;ducteur plan&eacute;taire 6:1 et carte <b>moteus r4.11</b> int&eacute;gr&eacute;e.</p>
+						<p class="card-text">La g&eacute;om&eacute;trie r&eacute;elle est rendue en 3D dans le navigateur — le bo&icirc;tier s'&eacute;carte en vue &eacute;clat&eacute;e et laisse voir la carte — pendant que la physique et le firmware sont simul&eacute;s en Python. La <b>physique tourne &agrave; 1 kHz</b>, le flux vers le navigateur &agrave; 60 Hz.</p>
+						<p class="card-text">L'API expos&eacute;e est <b>identique &agrave; celle de la biblioth&egrave;que moteus</b> : les scripts &eacute;crits pour le banc pilotent ensuite le servo r&eacute;el. Aucune d&eacute;pendance &agrave; installer, Python 3.8+ et un navigateur suffisent.</p>
+						<span class="text-bl blog-grid-title mt-4 mb-3 d-block">Caract&eacute;ristiques</span>
+						<ul class="list-unstyled card-text">
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>Servo quasi-direct-drive : mj5208 + r&eacute;ducteur plan&eacute;taire 6:1 + moteus r4.11</li>
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>Physique Python &agrave; 1 kHz, diffusion navigateur &agrave; 60 Hz</li>
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>API identique &agrave; la biblioth&egrave;que <code>moteus</code></li>
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>Servo mont&eacute; sur support avec charge en bout de bras, t&eacute;l&eacute;m&eacute;trie et scopes en direct</li>
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>Vue &eacute;clat&eacute;e et vue en coupe du bo&icirc;tier</li>
+							<li class="mb-2"><span class="fa fa-angle-right mr-2"></span>Trois modes d'ex&eacute;cution : serveur Python complet, portage JS pour GitHub Pages, fichier unique hors ligne</li>
+						</ul>
+						<span class="text-bl blog-grid-title mt-4 mb-3 d-block">D&eacute;p&ocirc;t, d&eacute;mo et sources</span>
+						<p class="card-text"><a href="https://github.com/equationstratos/MOTEUS1" target="_blank" class="card-text">D&eacute;p&ocirc;t MOTEUS1 sur GitHub</a></p>
+						<p class="card-text"><a href="https://github.com/mjbots/moteus" target="_blank" class="card-text">mjbots/moteus — contr&ocirc;leur d'origine</a></p>
+						<p class="card-text"><a href="YLO2.html" class="card-text">YLO2 — le quadrup&egrave;de qui l'utilise</a></p>
+					</div>
+				</div>
+				<a href="MOTORS.html" class="btn button-style-3 mt-4">&larr; MOTORS</a>
+				<a href="LAB.html" class="btn button-style-3 mt-4">Tous les projets 2026</a>
+			</div>
+		</div>
+	</div>
+	<!-- //single -->
+
+	<!-- footer -->
+	<footer class="py-4">
+		<div class="container py-xl-5 py-3">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 col-8 footer-grid">
+					<h2 class="mb-3">
+						<a class="logo-footer tm-clr let" href="index.html">STRATOS ROBOTICS</a>
+					</h2>
+					<p>Learn, generate, transmit.</p>
+				</div>
+				<div class="offset-lg-1 col-lg-2 col-sm-6 col-4 footer-grid mt-lg-0 mt-4">
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html">Index</a>
+						</li>
+						<li class="my-2">
+							<a href="LAB.html">Lab 2026</a>
+						</li>
+						<li>
+							<a href="liens.html">Links</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid mt-lg-0 mt-4">
+					<ul class="list-unstyled">
+						<li>
+							<a href="MOTORS.html">Motors</a>
+						</li>
+						<li>
+							<a href="ELECTRONICS.html">Electronics</a>
+						</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid mt-lg-0 mt-4">
+					<ul class="list-unstyled">
+						<li class="my-2">
+							<a href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<!-- footer social icons -->
+	<div class="social-icons-footer text-center my-3">
+		<ul class="list-unstyled">
+			<li>
+				<a href="https://www.youtube.com/channel/UCag3_c9V1evuFyGregYdjFQ" target="_blank"><span class="fa fa-youtube"></span></a>
+			</li>
+			<li>
+				<a href="https://github.com/equationstratos/STRATOSROBOTICS" target="_blank"><span class="fa fa-github"></span></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/StratosRobotics" target="_blank"><span class="fa fa-twitter"></span></a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/stratos_robotics/" target="_blank"><span class="fa fa-instagram"></span></a>
+				<a href="https://www.thingiverse.com/StratosRobotics/about" target="_blank"><span class="fa fa-cubes"></span></a>
+			</li>
+		</ul>
+	</div>
+	<!-- //footer social icons -->
+	<!-- copyright -->
+	<div class="copy_right mb-5">
+		<p class="text-center text-bl let">&copy; STRATOS ROBOTICS | Design by STRATOS</p>
+	</div>
+	<!-- //copyright -->
+
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+
+</body>
+
+</html>

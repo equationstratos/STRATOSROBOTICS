@@ -40,6 +40,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
 	 rel="stylesheet">
 	<!-- //Web-Fonts -->
+	<!-- vignettes fiches projet -->
+	<style>
+		.gal-img .thumb { display: block; overflow: hidden; border-radius: 6px; background: #0c1220; }
+		.gal-img .thumb img { width: 100%; height: 220px; object-fit: cover; display: block; transition: transform .35s; }
+		.gal-img .thumb:hover img { transform: scale(1.04); }
+		.new-row .gal-img { display: flex; flex-direction: column; padding: 0 14px 2.75rem; }
+		.new-row .gal-img h4 { margin-top: 1.35rem !important; font-size: 1.15rem; }
+		.new-row .gal-img p.my-4 { margin: .7rem 0 1.25rem !important; }
+		.new-row .gal-img .btn { margin-top: auto !important; align-self: center; }
+		.new-heading { margin-bottom: 2rem; }
+	</style>
 </head>
 
 <body>
@@ -114,6 +125,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="text-center mb-sm-5 mb-4">
 				<h3 class="tittle text-bl let mb-2 pt-sm-3">WIND</h3>
 			</div>
+			<!-- nouvelles fiches -->
+			<div class="text-center new-heading">
+				<h4 class="tittle text-bl let mb-2">NOUVEAUT&Eacute;S</h4>
+				<p class="text-bl">Micro drone FPV brushless.</p>
+			</div>
+			<div class="row news-grids no-gutters text-center new-row">
+				<div class="col-md-4 gal-img">
+					<a href="ESPROCKET.html" class="thumb"><img src="images/projects/esprocket.svg" alt="ESP ROCKET" class="img-fluid"></a>
+					<h4 class="mt-5">ESP ROCKET</h4>
+					<p class="my-4">Le plus petit drone brushless &agrave; ESP32, fuselage en forme de fus&eacute;e</p>
+					<a class="btn button-style-4 mt-4" href="ESPROCKET.html">Learn More</a>
+				</div>
+			</div>
+			<div class="text-center new-heading mt-5 pt-4">
+				<h4 class="tittle text-bl let mb-2">ARCHIVES</h4>
+			</div>
+			<!-- //nouvelles fiches -->
 			<div class="row news-grids no-gutters text-center">
 				<div class="col-md-4 gal-img">
 					<a href="#gal1"><img src="images/g1.jpg" alt="Gallery Image" class="img-fluid"></a>
